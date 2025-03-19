@@ -31,7 +31,7 @@ app.use('/api/favorites', favoriteRouter)
 
 app.use('/api/users', userRouter)
 
-app.use('/api/resources', favoriteRouter)
+app.use('/api/resources', resourceRouter);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
